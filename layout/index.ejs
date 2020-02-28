@@ -49,6 +49,10 @@
         <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
       </li>
     <% }); %>
+    <li class="post-item">
+      <div class="meta"></div>
+      <a href="/archives">Read more (•_•) </a>
+    </li>
   </ul>
   <% if (theme.posts_overview.show_all_posts) { %>
     <%- partial('_partial/pagination') %>
